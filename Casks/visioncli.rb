@@ -2,8 +2,8 @@
 # `homebrew` job writes this file into the tap with the new version and the .dmg's sha256 (packaging/homebrew/README.md).
 #   brew install --cask thethirdsourcers/tap/visioncli
 cask "visioncli" do
-  version "0.10.4"
-  sha256 "e1d3b519087359d55ae1b4ab6a6313b772a2b971fe24b86b17e3559053dd7c2d"
+  version "0.10.5"
+  sha256 "21b355437887ac8df7d1ffde8810195a6a4fb7927a4eb812be9baf2580d55407"
 
   url "https://github.com/thethirdsourcers/visioncli/releases/download/v#{version}/VisionCLI-#{version}-macos.dmg"
   name "VisionCLI"
