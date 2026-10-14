@@ -5,8 +5,7 @@ cask "visioncli" do
   version "0.10.4"
   sha256 "e1d3b519087359d55ae1b4ab6a6313b772a2b971fe24b86b17e3559053dd7c2d"
 
-  url "https://github.com/thethirdsourcers/visioncli/releases/download/v#{version}/VisionCLI-#{version}-macos.dmg",
-      verified: "github.com/thethirdsourcers/visioncli/"
+  url "https://github.com/thethirdsourcers/visioncli/releases/download/v#{version}/VisionCLI-#{version}-macos.dmg"
   name "VisionCLI"
   desc "Voice and screen co-assistant for developers, with Claude Code or Gemini"
   homepage "https://visioncli.thethirdsourcers.com"
@@ -18,7 +17,7 @@ cask "visioncli" do
 
   # The app updates itself (and keeps its permissions); brew upgrade still works.
   auto_updates true
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "VisionCLI.app"
 
